@@ -23,7 +23,7 @@ params:
         emoji:
         subtitle:
         avatar:
-            enabled: true
+            enabled: false
             local: true
             src: img/avatar.png
 
@@ -37,7 +37,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
@@ -56,7 +56,7 @@ params:
             repo:
             issueTerm: pathname
             label:
-            theme:        
+            theme:
 
         remark42:
             host:
