@@ -4,6 +4,8 @@
     {{ $filtered := ($pages | intersect $notHidden) }}
     {{ $pag := .Paginate ($filtered) }}
 
+    <a href="https://yanming.link/blog"><strong>新博客现已启用，点击我过去看看吧！</strong></a>
+
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}
             {{ partial "article-list/default" . }}
